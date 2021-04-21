@@ -1,6 +1,8 @@
 package oop.inheritance.ingenico;
 
-public class IngenicoDisplay {
+import oop.inheritance.core.DisplayInterface;
+
+public class IngenicoDisplay implements DisplayInterface {
 
     /**
      * Prints a message to specied position

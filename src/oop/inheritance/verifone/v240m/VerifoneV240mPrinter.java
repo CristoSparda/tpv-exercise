@@ -1,6 +1,10 @@
 package oop.inheritance.verifone.v240m;
 
-public class VerifoneV240mPrinter {
+import oop.inheritance.core.PrinterInterface;
+
+import java.security.Principal;
+
+public class VerifoneV240mPrinter implements PrinterInterface {
 
     /**
      * Prints a message on the current line at the specified horizontal position
